@@ -1,0 +1,56 @@
+#hero {
+    height: 100vh;
+    width: 100%;
+    background: #fffbd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero::after{
+    width: 100%;
+    height: 100%;
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#hero video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5 ;
+    object-fit: cover;
+}
+
+#hero .caption{
+    position:relative;
+    z-index: 20;
+    text-align: center;
+    color: black;
+}
+#hero .caption input{
+    border: none;
+    background: #dbceff;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    width: 900px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+#hero .textture{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 15 ;
+        object-fit: cover;
+}

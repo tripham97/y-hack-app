@@ -16,7 +16,7 @@ const App = () => {
         <Route exact path="/contact" element={<ContactScreen />} />
         <Route exact path="/" element={<HomeScreen />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }

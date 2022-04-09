@@ -37,7 +37,7 @@ const Home = () => {
               </Button>
               <Form.Group>
                 <Form.Text className="text-muted">
-                  New here?<a href="#">Sign up</a>
+                  New here?<a href="../Signup.js">Sign up</a>
                 </Form.Text>
               </Form.Group>
             </Form>

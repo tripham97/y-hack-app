@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useNavigate, useLocation } from "react-router-dom";
 import "../css/Nav.css";
+import logo from "../img/logo.png";
+import Image from "react-bootstrap/Image";
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -12,10 +14,14 @@ const NavBar = () => {
   return (
     <Container className="nav-container">
       <Row>
-        <Col className="nav-left">
-          <img src="./images/logo.png" alt="logo" onClick={handleonClick("")} />
+        <Col className="nav-middle">
+          <img
+            style={{ top: "50%", height: "20%", width: "20%" }}
+            src={logo}
+            alt="logo"
+            onClick={handleonClick("")}
+          />
         </Col>
-        <Col className="nav-middle">Wisp</Col>
         <Col className="nav-right">
           <button onClick={handleonClick("")}> Home </button>
           <button onClick={handleonClick("about")}> About Us </button>

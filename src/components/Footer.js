@@ -13,7 +13,7 @@ const Footer = () => {
         <Container>
             <Row style={{ display: "flex", justifyContent: "space-around", background: "gray" }}>
                 <Col className='footer-left'>
-                    <img src='../images/logo.png' alt='logo' onClick={handleOnClick("")} /><p>Copyright © 2022. All rights reserved.</p>
+                    <img src='../images/logo.png' alt='logo' onClick={handleOnClick("")} />
                 </Col>
                 <Col className='footer-right'>
                     <button onClick={handleOnClick("")}> Home </button>

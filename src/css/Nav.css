@@ -1,5 +1,5 @@
 .nav-container {
-    background-color: purple;
+    background-color: transparent;
     z-index: 100;
   }
   .nav-left {
@@ -8,8 +8,8 @@
   }
   .nav-left img {
     /* position: absolute; */
-    /* margin-top: 15px;*/
-    width: 200px;
+    margin-top: 15px;
+    width: 100px;
   }
   .nav-left img:hover {
     cursor: pointer;
@@ -20,14 +20,24 @@
     justify-content: center;
     font-size: 45px;
     font-weight: bold;
-    color: white;
+    color: #000000;
   }
   .nav-right {
-    display: flex;
+    display: inline-flex;
+    align-items: center;
   }
+
+  .nav-right img {
+    margin-top: 15px;
+    width: 50px;
+  }
+  .nav-right img:hover {
+    cursor: pointer;
+  }
+
   .nav-right button {
     border: none;
     background: transparent;
     cursor: pointer;
-    color: white;
+    color: rgb(190, 190, 190);
   }

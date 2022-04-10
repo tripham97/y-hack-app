@@ -26,6 +26,8 @@ const NavBar = () => {
           <button onClick={handleonClick("")}> Home </button>
           <button onClick={handleonClick("about")}> About Us </button>
           <button onClick={handleonClick("contact")}> Contact Us </button>
+          <button onClick={handleonClick("login")}> Login </button>
+          <button onClick={handleonClick("searchPage")}> Search </button>
         </Col>
       </Row>
     </Container>

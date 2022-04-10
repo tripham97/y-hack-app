@@ -26,6 +26,8 @@ const Footer = () => {
           <button onClick={handleOnClick("")}> Home </button>
           <button onClick={handleOnClick("about")}> About Us </button>
           <button onClick={handleOnClick("contact")}> Contact Us </button>
+          <button onClick={handleOnClick("login")}> Login</button>
+          <button onClick={handleOnClick("searchPage")}> Search</button>
         </Col>
       </Row>
     </Container>

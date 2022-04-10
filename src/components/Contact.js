@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="mb-1">
       <div
         className="mb-2"
         style={{ display: "flex", justifyContent: "center", borderSpacing: 10 }}

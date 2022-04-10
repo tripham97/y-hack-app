@@ -3,6 +3,7 @@ import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import "../../css/Home.css";
 import token from "../../img/spirit_token.png";
 import Image from "react-bootstrap/Image";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div
@@ -37,7 +38,7 @@ const Home = () => {
               </Button>
               <Form.Group>
                 <Form.Text className="text-muted">
-                  New here?<a href="../Signup.js">Sign up</a>
+                  New here?<Link to="/Signup">Signup</Link>
                 </Form.Text>
               </Form.Group>
             </Form>

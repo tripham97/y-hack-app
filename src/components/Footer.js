@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../css/Footer.css";
 import { useNavigate, useLocation } from "react-router-dom";
+import logo from "../img/logo.png";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -19,11 +20,7 @@ const Footer = () => {
         }}
       >
         <Col className="footer-left">
-          <img
-            src="../images/logo.png"
-            alt="logo"
-            onClick={handleOnClick("")}
-          />
+          <img src={logo} alt="logo" onClick={handleOnClick("")} />
         </Col>
         <Col className="footer-right">
           <button onClick={handleOnClick("")}> Home </button>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
-import "../css/Signup.css";
+import "../css/Home.css";
 import token from "../img/spirit_token.png";
 import Image from "react-bootstrap/Image";
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
       <Image style={{ top: "50%", height: "20%", width: "20%" }} src={token} />
       <Container className="box my-auto">
         <Row>
-          <h1>Signup</h1>
+          <h1>New User</h1>
         </Row>
 
         <Row>
@@ -27,19 +27,15 @@ const Home = () => {
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>Password:</Form.Label>
-                <Form.Control type="password" placeholder="Password" />
+                <Form.Control type="password" placeholder="New password" />
               </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
+              <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Label>Confirm Password:</Form.Label>
+                <Form.Control type="password" placeholder="Confirm password" />
               </Form.Group>
               <Button variant="primary" type="submit">
-                Submit
+                Create account
               </Button>
-              <Form.Group>
-                <Form.Text className="text-muted">
-                  New here?<a href="#">Sign up</a>
-                </Form.Text>
-              </Form.Group>
             </Form>
           </Col>
         </Row>
